@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(99, 222, 249)   ;
+    border: currentColor;
+    border: radius 10%;
+}
+*{
+    box-sizing: border-box;
+}
+
+div{
+
+    margin: auto;
+    width: 50%;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 20px 20px 28px 0px rgba(0, 0, 4, 0.7);
+}
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(241, 237, 237);
+}
+.button{
+    background-color: #2e57dc;
+    border: none;
+    color: white;
+    border-radius: 0%;
+    padding: 5px;
+    cursor:pointer;
+    width: 100%;
+    margin: auto;
+    opacity: 0.8;
+}
+.button:hover{
+    opacity: 1.5;
+
+    background: #1847e4;
+   
+    
+}
